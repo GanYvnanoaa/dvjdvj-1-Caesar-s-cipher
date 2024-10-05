@@ -19,7 +19,7 @@ if not cap.isOpened():
 block_size = 10  # 例如，10x10 的像素块  
   
 # 读取文件夹中的图片并计算其平均颜色  
-images_dir = r"C:\Users\Administrator\Desktop\8"  
+images_dir = r"C:\Users\Genshin\Desktop\8"  
 image_files = [os.path.join(images_dir, f) for f in os.listdir(images_dir) if f.endswith(('.png', '.jpg', '.jpeg'))]  
 image_colors = []  
 for img_path in image_files:  
